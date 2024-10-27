@@ -1,0 +1,33 @@
+{
+    "browserSettings": {
+      "headless": true,
+      "ignoreHTTPSErrors": true,
+      "args": [
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+        "--window-size=1750,1080"
+      ]
+    },
+    "clusterSettings": {
+      "maxConcurrency": 5,
+      "timeout": 30000,
+      "retryLimit": 3
+    },
+    "stores": {
+      "walmart": {
+        "taskName": "scrapeWalmartProduct",
+        "cookiePath": "config/cookies/walmart.json",
+        "schema": "walmartSchema"
+      },
+      "costco": {
+        "taskName": "scrapeCostcoProduct",
+        "cookiePath": "config/cookies/costco.json",
+        "schema": "costcoSchema"
+      },
+      "target": {
+        "taskName": "scrapeTargetData",
+        "cookiePath": "config/cookies/target.json"
+      }
+    }
+  }
+  
