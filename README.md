@@ -7,9 +7,6 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
-  - [Completed Features](#completed-features)
-  - [Upcoming Features](#upcoming-features)
 - [Technologies](#technologies)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
@@ -23,22 +20,6 @@
 ## Introduction
 
 **PricePal Backend** is the server-side component of the PricePal application, an open-source full-stack MERN (MongoDB, Express, React, Node.js) project. This backend handles all essential operations, including web scraping for price data, database management, user authentication, and providing APIs for the frontend to consume.
-
-## Features
-
-### Completed Features
-
-- **Web Scraping:** Automatically fetches and updates price data from various online stores.
-- **Database Management:** Utilizes MongoDB to store user data, item information, and price comparisons.
-- **RESTful APIs:** Provides endpoints for the frontend to interact with the database.
-- **Caching Mechanisms:** Optimize performance with caching strategies for frequently accessed data.
-
-### Upcoming Features
-
-- **Real-Time Updates:** Implement live data push to frontend using WebSockets.
-- **Advanced Scraping:** Enhance scraping capabilities to handle more complex websites and dynamic content.
-- **Analytics Dashboard:** Provide insights and analytics on user behavior and pricing trends.
-- **API Rate Limiting:** Implement rate limiting to secure APIs against abuse.
 
 ## Technologies
 
